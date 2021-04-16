@@ -1,0 +1,38 @@
+.create-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.post-section{
+    box-shadow: 0px 10px 20px #0000002e;
+    width: 70%;
+    margin: 60px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-left{
+    width: 60%;
+    border-right: 1px solid #ddd;
+}
+.post-right{
+    width: 38%;
+}
+
+.img-sec{
+  max-width: 100%;
+    width: 200px;
+    margin-left: 15%;
+    height: 200px;
+}
